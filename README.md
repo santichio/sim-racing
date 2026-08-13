@@ -19,6 +19,7 @@ what each build actually needs, and points back at the people who designed it. S
 ## Contents
 
 - [Bill of Materials](#bill-of-materials)
+- [Cost estimate](#cost-estimate)
 - [Wheelbase](#wheelbase)
 - [Pedals](#pedals)
 - [Steering Wheel Rim](#steering-wheel-rim)
@@ -57,6 +58,17 @@ The CSVs are the source of truth. After editing one, regenerate the aggregate:
 python3 tools/build-bom.py          # rewrite BOM.md
 python3 tools/build-bom.py --check  # fail if BOM.md is stale
 ```
+
+## Cost estimate
+
+The BOM carries **no prices** — see the convention above. A separate, hand-made market
+estimate lives in [`docs/cost-estimate.md`](./docs/cost-estimate.md): roughly **€2,350**
+for a lean build (10 Nm motor, two active pedals, sourced direct from China), **€3,600**
+mid, **€4,900** for EU-sourced parts and a larger frame — before VAT, duty, a seat, or a
+printer that can handle PETG-CF.
+
+Those numbers are an estimate, not a quote, and they are deliberately kept out of the
+CSVs so the parts lists stay verifiable against their upstream sources.
 
 ## Wheelbase
 
@@ -169,6 +181,7 @@ profiles).
 .
 ├── BOM.md                        # generated — all subsystems + consolidated totals
 ├── docs/
+│   ├── cost-estimate.md          # what the whole setup costs to build
 │   └── pedals-build-guide.md     # assembly guide for the 3D-printed FFB pedal
 ├── src/bom/                      # source of truth: one CSV per subsystem
 │   ├── bom-wheelbase.csv
