@@ -1,0 +1,46 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+shifter,mechanics,Lever,,Custom 12mm axle with M10x1.5 end,1,Lever base,"Part of the Industry&CNC kit. Each part is machined to match the custom design, so processing time can take up to 7 days"
+shifter,mechanics,Main axle,,10mm custom axle,1,Crank,Part of the Industry&CNC kit. Shafts can be 1-2mm longer than stated; this is normal
+shifter,mechanics,Shaft 12mm,,12x116mm,1,Low shaft,Part of the Industry&CNC kit
+shifter,mechanics,Shaft 12mm,,12x85mm,1,Rear shaft,Part of the Industry&CNC kit
+shifter,mechanics,Shaft 4mm,,4x100mm,2,Body 2,Part of the Industry&CNC kit
+shifter,mechanics,Shaft support block,SHF12,12mm bore,4,Crank and lever,
+shifter,mechanics,Shaft support block,SHF10,10mm bore,1,Crank,
+shifter,mechanics,Hex nut,,M10,1,Main axle,
+shifter,mechanics,O-ring,,ID 11mm / 2mm section,2,Rear shaft and turn,
+shifter,mechanics,Round magnet,,8x4mm,1,Turn,Part of the Industry&CNC kit
+shifter,bearings,Radial spherical plain bearing,GEG12C,,1,Body 1,
+shifter,bearings,Deep groove ball bearing,6800-ZZ,10x19x5 (ID/OD/W),3,Slider and main axle,
+shifter,bearings,Deep groove ball bearing,698-ZZ,8x19x6 (ID/OD/W),1,Carriage,
+shifter,bearings,Deep groove ball bearing,695-ZZ,5x13x4 (ID/OD/W),9,"No-turn (6), turn (1), body 2 (2)",
+shifter,electronics,Custom PCB,,,1,Body 2,Included in the Industry&CNC mechanical kit; replacements can be ordered separately
+shifter,electronics,Arduino Micro,ATmega32U4,,1,Mounts to custom PCB,Included in the mechanical kit
+shifter,electronics,Hall effect sensor,A3144,,,Body 2,VERIFY: referenced upstream only via the heat-shrink item ('mainly for the A3144 hall sensors') but never listed as a part with a quantity
+shifter,electronics,Push button,,,3,Button plate mod (BP),The upstream design is optimised for one specific button model
+shifter,electronics,Switch,,,3,Button plate mod (BP),The upstream design is optimised for one specific switch model
+shifter,electronics,Switch SPDT 1A,,,1,Base lever,Included in the mechanical kit
+shifter,electronics,Limit switch,KW11,,1,Sequential holder,Included in the mechanical kit
+shifter,electronics,Dupont and JST connector kit,,,1,PCB,Order the matching crimp tool as well for a clean job
+shifter,electronics,Hook-up wire 24AWG,,,1,"Yellow for sequential, white for reverse, red for 5V, black for ground",At least red and black plus one more colour
+shifter,electronics,Heat shrink tubing,,,1,Hall sensor pins,Mainly for insulating the A3144 hall sensor pins
+shifter,fasteners,Flat-head countersunk screw,DIN7991,M4x12,6,"Radial joint lock (4), rear bearing holder (2)",
+shifter,fasteners,Flat-head countersunk screw,DIN7991,M4x30,2,Servo mount,
+shifter,fasteners,Flat-head countersunk screw,DIN7991,M5x20,3,No-turn,
+shifter,fasteners,Flat-head countersunk screw,DIN7991,M5x25,4,Body 2,
+shifter,fasteners,Cylinder head screw,DIN912,M2x10,5,"Switches (4), sequential holder (1)",
+shifter,fasteners,Cylinder head screw,DIN912,M4x40,2,Reverse lock and carriage,
+shifter,fasteners,Cylinder head screw,DIN912,M8x10,1,Body 1,
+shifter,fasteners,Button head screw,ISO7380,M3x8,5,PCB and PCB cover,
+shifter,fasteners,Button head screw,ISO7380,M5x16,4,"Body 2 (2), no-turn (2)",
+shifter,fasteners,Button head screw,ISO7380,M5x20,2,Rear crank,
+shifter,fasteners,Button head screw,ISO7380,M5x30,6,Crank,
+shifter,fasteners,Button head screw,ISO7380,M5x55,1,Turn,
+shifter,fasteners,Limit screw,,M4x25 (D5),2,Base lever,
+shifter,fasteners,Grub screw,,M5x20,1,Preload,
+shifter,springs,Compression spring,,"OD 8mm, ID 4mm, L 15mm, yellow",2,Carriage,Included in the mechanical kit
+shifter,springs,Compression spring,,"OD 8mm, ID 4mm, L 35mm, yellow",1,Base lever,Included in the mechanical kit
+shifter,springs,Compression spring,,"OD 30mm, ID 15mm, L 25mm, yellow",1,Main axle,Included in the mechanical kit
+shifter,consumables,PLA filament,,1.3 kg,,,Total print weight for the whole gearbox
+shifter,consumables,Gear knob,,M10x1.5 thread,1,Lever,M10x1.5 gear knobs fit directly; any other knob needs an adapter
+shifter,tools,Soldering iron,,,1,,
+shifter,tools,Solder wire,,1mm,1,,

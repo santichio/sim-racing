@@ -1,0 +1,40 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+pedals,electronics,Integrated servo motor,iSV57T-130S,,1,Rail,VERIFY: named in the source section heading and in the rail kit note but never given its own line item in the upstream part tables
+pedals,electronics,Controller PCB,,,1,PCB spacer mount,VERIFY: an 'Attach PCB' assembly step exists upstream but the PCB itself is not listed as a part; see the DIY-Sim-Racing-FFB-Pedal electronics BOM
+pedals,electronics,Load cell,,,1,Loadcell arm,VERIFY: referenced throughout the upstream guide (loadcell arm / upper loadcell joint) but never listed as a part
+pedals,mechanics,Linear rail with ball screw,JKK60-5-C-150-A1-F4-M,KK60 series,1,Base,Available as a servo + rail + coupler kit
+pedals,mechanics,Shaft coupler 8mm to 8mm,,8mm-8mm,1,Servo to ball screw,Target spacing between motor flange and coupler is approx. 5.5 mm
+pedals,mechanics,Aluminium extrusion,,3060 x 400mm,1,Base plate,Allows direct screw-on of the linear rail and flexible rig mounting
+pedals,bearings,Deep groove ball bearing,608-ZZ,8x22x7 (ID/OD/W),2,Loadcell arm,
+pedals,bearings,Screw bearing,JS695-13-5C3L8M6,,2,Pedal arm to 3060 extrusion,
+pedals,printed,Loadcell arm (back),,,1,Loadcell arm,"Print in PETG-CF; 10 perimeters, 10 top/bottom, 20% infill, 270C hotend, 70C bed"
+pedals,printed,Loadcell arm (front),,,1,Loadcell arm,"Print in PETG-CF; 10 perimeters, 10 top/bottom, 20% infill, 270C hotend, 70C bed"
+pedals,printed,3060 adapter plate,,,1,Rail to 3060 profile,Print in PETG-CF
+pedals,printed,Pedal arm,,,1,Pedal arm,Print in PETG-CF; extra width reduces flex under off-centre load
+pedals,printed,Faceplate,,,1,Pedal arm,Print in PETG-CF
+pedals,printed,Side guard,,,2,Faceplate,Print in PETG-CF
+pedals,printed,Upper loadcell arm adapter,,8mm,2,Loadcell to pedal arm,"Print in 83A-TPE; 4 perimeters, 0 top/bottom, 90% infill, 250C hotend, 70C bed. Absorbs system noise and vibration"
+pedals,printed,Lower loadcell arm adapter,,8mm,2,Loadcell arm to sled,"Print in 83A-TPE; 4 perimeters, 0 top/bottom, 90% infill, 250C hotend, 70C bed. Absorbs system noise and vibration"
+pedals,printed,Rail side cover (left),,,1,Rail,Print in PETG-CF
+pedals,printed,Rail side cover (right),,,1,Rail,Print in PETG-CF
+pedals,printed,3060 end cover,,,2,3060 extrusion ends,Print in PETG-CF
+pedals,printed,PCB spacer,,,2,PCB,Print in PETG-CF
+pedals,fasteners,Cylinder head screw,,M8x16,2,Loadcell arm,
+pedals,fasteners,Threaded rod,,M8x45,2,Loadcell arm,
+pedals,fasteners,Cylinder head screw,,M4x16,4,Servo to rail,
+pedals,fasteners,Cylinder head screw,,M5x20,4,Rail to 3060 profile,
+pedals,fasteners,Cylinder head screw,,M5x20,6,Side guards,
+pedals,fasteners,Cylinder head screw,,M5x20,2,PCB,VERIFY: upstream table labels this M5x20 but links an M5x40 product
+pedals,fasteners,Cylinder head screw,,M5x30,2,Faceplate to pedal arm,
+pedals,fasteners,Cylinder head screw,,M5x40,4,Loadcell to pedal arm,
+pedals,fasteners,Cylinder head screw,,M5x25,4,Loadcell arm to sled,
+pedals,fasteners,Countersunk screw,,M2.5x6,4,Rail side covers,
+pedals,fasteners,Wood/self-tapping screw,,3.5x30,6,Pedal arm,Driven across print layers to increase layer bonding
+pedals,fasteners,Wood/self-tapping screw,,3.5x20,2,Pedal arm,Driven across print layers to increase layer bonding
+pedals,fasteners,Spring ball T-nut,,3030 M5,4,3060 extrusion,
+pedals,fasteners,Spring ball T-nut,,3030 M6,2,3060 extrusion,
+pedals,fasteners,Flat washer,,M6 12x1.6,2,Pedal arm to 3060 extrusion,
+pedals,consumables,PETG-CF filament,,,,,Carbon-fibre filled PETG for all rigid printed parts
+pedals,consumables,TPE filament,,83A shore,,,For the upper and lower loadcell arm adapters
+pedals,consumables,PTFE (Teflon) tape,,,1,Loadcell arm,Reduces play between the threaded rod and the bearing
+pedals,tools,Countersink set,,,1,,Used to remove material for the countersunk screws in the pedal arm

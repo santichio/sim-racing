@@ -1,0 +1,13 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+wheelbase,electronics,OpenFFBoard controller,,STM32-based,1,Control enclosure,Open-hardware FFB controller; handles the force feedback physics over USB. TODO: board revision and qty not specified in source
+wheelbase,electronics,Motor driver,ODrive,,,Control enclosure,"ALTERNATIVE 1 of 3 - pick one driver. TODO: model/qty not specified in source"
+wheelbase,electronics,Motor driver,VESC,,,Control enclosure,"ALTERNATIVE 2 of 3 - pick one driver. TODO: model/qty not specified in source"
+wheelbase,electronics,AC servo driver,AASD-15A,,,Control enclosure,"ALTERNATIVE 3 of 3 - pick one driver. Controlled from the OpenFFBoard via SPI/PWM. TODO: qty not specified in source"
+wheelbase,electronics,AC servo motor,130ST-M10010,Mige 130ST series; approx. 10-15 Nm,,Wheelbase mount,ALTERNATIVE 1 of 2 - pick one motor for the target torque. TODO: qty not specified in source
+wheelbase,electronics,AC servo motor,130ST-M15015,Mige 130ST series; approx. 20-30 Nm,,Wheelbase mount,ALTERNATIVE 2 of 2 - pick one motor for the target torque. TODO: qty not specified in source
+wheelbase,electronics,Emergency stop switch,,,,E-Stop housing,TODO: implied by the printed E-Stop housing but the switch itself is not specified in source
+wheelbase,electronics,Encoder,,,,Motor shaft,TODO: implied by the printed encoder mounting bracket but the encoder itself is not specified in source
+wheelbase,printed,Cable management enclosure,,,,Wheelbase,TODO: qty/material not specified in source
+wheelbase,printed,Quick-release locking ring,,,,Wheel side of shaft,TODO: qty/material not specified in source
+wheelbase,printed,E-Stop housing,,,,Rig,TODO: qty/material not specified in source
+wheelbase,printed,Encoder mounting bracket,,,,Motor rear,TODO: qty/material not specified in source

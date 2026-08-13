@@ -1,0 +1,12 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+handbrake,electronics,Hydraulic pressure sensor,,500 psi / 1/8in NPT,1,Banjo on brake caliper,"Outputs 0.4-4.5V. Consider a 1000 psi sensor only if you push extremely hard; the upstream author never exceeded 60% of the 500 psi range"
+handbrake,electronics,Cable 3-core 22AWG,,4mm outer diameter,1,Sensor to controller,Sold by length; upstream does not specify a run length
+handbrake,mechanics,Handbrake lever assembly,,,1,Lever,
+handbrake,mechanics,Brake caliper,,Single piston (type A),1,Lever base,
+handbrake,mechanics,Master cylinder,,,,Lever,TODO: required by the 3/8-24 UNF banjo item but never specified in the upstream parts list; size and bore not stated
+handbrake,mechanics,Banjo bolt with pressure sensor mount,,M10x1.25,1,Between brake caliper and pressure sensor,
+handbrake,mechanics,Banjo bolt,,3/8-24 UNF,1,Master cylinder,
+handbrake,mechanics,Brake hose,,,1,Caliper to master cylinder,
+handbrake,mechanics,Banjo washers / seals,,,,Both banjo bolts,"Upstream lists these only as 'joints' with no size or quantity. TODO: confirm count (typically 2 per banjo bolt)"
+handbrake,fasteners,Flat-head countersunk screw,DIN7991,M5x35,3,Frame,
+handbrake,fasteners,Cylinder head screw,DIN912,M8x40,2,Frame,

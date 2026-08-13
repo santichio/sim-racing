@@ -1,0 +1,11 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+wheel-rim,electronics,Microcontroller,Arduino Pro Micro,,,Wheel plate,ALTERNATIVE 1 of 2 - pick one MCU. Runs SimHub firmware. TODO: qty not specified in source
+wheel-rim,electronics,Microcontroller,Teensy,,,Wheel plate,ALTERNATIVE 2 of 2 - pick one MCU. Runs SimHub firmware. TODO: model/qty not specified in source
+wheel-rim,electronics,Telemetry display,VoCore,4.3 inch,,Wheel plate centre,"ALTERNATIVE 1 of 2 - pick one display. Shows RPM, gear, lap deltas, tyre temps. TODO: qty not specified in source"
+wheel-rim,electronics,Telemetry display,Nextion,,,Wheel plate centre,ALTERNATIVE 2 of 2 - pick one display. TODO: model/size/qty not specified in source
+wheel-rim,electronics,Addressable RGB LED,WS2812B,,,Shift light strip,TODO: LED count not specified in source
+wheel-rim,electronics,Rotary encoder,,,,Wheel plate,TODO: qty not specified in source
+wheel-rim,electronics,Tactile microswitch,,,,Magnetic paddle shifters,TODO: qty not specified in source (typically 2 - one per paddle)
+wheel-rim,mechanics,Neodymium magnet,,,,Magnetic paddle shifters,Provides the paddle detent feel. TODO: size/qty not specified in source
+wheel-rim,printed,Wheel plate,,,,Wheel,"Print reinforced in PETG, ABS, or carbon-fibre composite filament. CAD from OpenSimRacer or community files on Thingiverse/Printables (F1 or GT3 style). TODO: qty/material choice not specified in source"
+wheel-rim,printed,Paddle shifter,,,,Behind wheel plate,Uses neodymium magnets plus tactile microswitches. TODO: qty not specified in source (typically 2)

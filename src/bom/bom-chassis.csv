@@ -1,0 +1,8 @@
+subsystem,category,item,part_no,spec,qty,location,notes
+chassis,mechanics,Aluminium extrusion,,8020 4080 profile,,Frame,"Do NOT 3D print structural chassis parts - they flex under direct drive and load cell braking loads. TODO: lengths/qty not specified in source; OpenSimRacing publishes free cutting plans"
+chassis,mechanics,Aluminium extrusion,,8020 40160 profile,,Frame,"Heavier profile for the main rails. TODO: lengths/qty not specified in source; OpenSimRacing publishes free cutting plans"
+chassis,fasteners,Extrusion brackets / T-nuts / bolts,,,,Frame joints,TODO: not enumerated in source - see the OpenSimRacing hardware bill of materials for the chosen layout
+chassis,printed,Cable clip,,,,Frame,TODO: qty/material not specified in source
+chassis,printed,Button box mount,,,,Frame,TODO: qty/material not specified in source
+chassis,printed,Mouse/keyboard tray hinge,,,,Tray,TODO: qty/material not specified in source
+chassis,printed,Transducer / bass shaker mount,,,,Seat and pedal deck,TODO: qty/material not specified in source
